@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+}
+body {
+  background-image: url("../../public/profile/back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  overflow: hidden;
+}
+.regform {
+  background-image: url("../../public/profile/back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.forminput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(84, 137, 184);
+  border-radius: 5px;
+  height: 40px;
+  width: 40%;
+  margin: 5px;
+  border-radius: 10px;
+}
+input {
+  width: 98%;
+  height: 70%;
+  border: none;
+  border-radius: 10px;
+}
+button {
+  width: 100px;
+  height: 30px;
+  padding: 3px;
+  background-color: rgb(21, 75, 21);
+  color: white;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(191, 231, 218);
+  color: rgb(10, 95, 21);
+}
+.navigation {
+  display: flex;
+  background-color: #332;
+}
+.navbar {
+  display: flex;
+
+  width: 50%;
+}
+a {
+  margin: 30px;
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  border-bottom: 5px blue solid;
+}
+.navbar input {
+  width: 50%;
+  background-color: red;
+}
+.usercontainer {
+  margin: 20px 300px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  width: 50%;
+  border: none;
+  border-radius: 10px;
+}
+.usercontainer button {
+  background-color: rgb(156, 211, 211);
+}
+img {
+  border-radius: 50%;
+}
+.dashboard {
+  background-image: url("../../public/profile/back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(12, 12, 1);
+  padding-top: 100px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logininput {
+  width: 500px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.logininput input {
+  width: 80%;
+
+  border-radius: 10px;
+}
